@@ -4,8 +4,80 @@
 	<meta charset = "utf-8">
 	<title>Popcorn Picker</title>
 	<link rel="stylesheet" href="style.css">
+	<style>
+		body 
+		{
+			background: white;
+			color: black;
+			transition: 0.3s;
+		}
+		.dark
+		{
+			background: #222;
+			color: white;
+		}
+	</style>
 </head>
 <body>
+	<h1>Popcorn Picker</h1>
+	
+	<button onclick="toggleMode()">Toggle Dark Mode</button>
 
+	<h2>Movie Watchlist</h2>
+
+	<input type="text" id="movieTitle" placeholder="Movie title">
+	<button id="addButton">Add Movie</button>
+
+	<select id="filter">
+		<option value="All">All</option>
+		<option value="Want to Watch">Want to Watch</option>
+		<option value="Watched">Watched</option>
+	</select>
+
+	<div id="movieGrid">
+		<div class="movie">
+			<img src="images/jaws.jpg" alt="Jaws">
+			<h3>Jaws</h3>
+			<p>Want to Watch</p>
+			<button>Watched</button>
+		</div>
+
+		<div class="movie">
+			<img src="images/toystory.jpg" alt="Toy Story 3">
+			<h3>Toy Story 3</h3>
+			<p>Want to Watch</p>
+			<button>Watched</button>
+		</div>
+
+		<div class="movie">
+			<img src="images/godfather.jpg" alt="The Godfather">
+			<h3>The Godfather</h3>
+			<p>Want to Watch</p>
+			<button>Watched</button>
+		</div>
+
+		<div class="movie">
+			<img src="images/backtothefuture.jpg" alt="Back to the Future">
+			<h3>Back to the Future</h3>
+			<p>Want to Watch</p>
+			<button>Watched</button>
+		</div>
+
+		<div class="movie">
+			<img src="images/shawshank.jpg" alt="The Shawshank Redemption">
+			<h3>The Shawshank Redemption</h3>
+			<p>Want to Watch</p>
+			<button>Watched</button>
+		</div>
+	</div>
+
+	<script>
+		function toggleMode()
+		{
+			document.body.classList.toggle("dark");
+		}
+	</script>
+
+	<script src="script.js"></script>
 </body>
 </html>
