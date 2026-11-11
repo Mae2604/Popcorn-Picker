@@ -4,3 +4,26 @@
     height: 300px;
     object-fit: cover;
 }
+body{
+    font-family:serif;
+    font-size: larger;
+}
+fit{
+    flex: auto;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    justify-content: center;
+    flex:auto;
+    margin: 10px;
+}
+ul{
+    border: 30px;
+    padding: 20px;
+    border-color: black;
+    border-radius: 10px;
+}
+ul:hover{
+    background-color: bisque;
+}
