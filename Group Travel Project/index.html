@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: wheat;">
+
 <head>
 	<meta charset="utf-8">
 	<title>JavaScript Group Challenge</title>
@@ -7,48 +8,62 @@
 </head>
 
 <body>
+	<fit>
 	<header>
 		<h1>JavaScript Group Challenge</h1>
 	</header>
+	<nav>
+		<ul>
+			destinations
+		</ul>
+
+	</nav>
 
 	<section id="destinations">
 		<h2>Top Destinations</h2>
-
+		<div id="nyc">
 		<div class="card">
 			<img src="newyork.jpg" alt="New York City skyline">
 			<h3>New York</h3>
 			<p>The city that never sleeps, with Times Square, Central Park, and the Statue of Liberty.</p>
 			<button id="nyButton">Learn More</button>
 			<p id="nyInfo"></p>
-		</div>
-
+		</div></div>
+		<div id="la">
 		<div class="card">
 			<img src="la.jpg" alt="Los Angeles Hollywood sign">
 			<h3>Los Angeles</h3>
 			<p>Sunny beaches, Hollywood, and some of the best food in California.</p>
 			<button id="laButton">Learn More</button>
 			<p id="laInfo"></p>
-		</div>
-
+		</div></div>
+		<div id="paris">
 		<div class="card">
 			<img src="paris.jpg" alt="Eiffel Tower in Paris">
 			<h3>Paris</h3>
 			<p>The city of lights, famous for the Eiffel Tower, art museums, and fresh croissants.</p>
 			<button id="parisButton">Learn More</button>
 			<p id="parisInfo"></p>
-		</div>
-
+		</div></div>
+		<div id="venice">
 		<div class="card">
 			<img src="venice.jpg" alt="Gondola on a canal in Venice">
 			<h3>Venice</h3>
 			<p>A floating city in Italy with canals, gondola rides, and old buildings.</p>
 			<button id="veniceButton">Learn More</button>
 			<p id="veniceInfo"></p>
-		</div>
+		</div></div>
 	</section>
-
+	<h2>
+		Different background-colors
+	</h2>
 	<section id="color">
-		<button id="colorButton">Change Background Color</button>
+		<p id="Sunset">
+		<button onclick  = Sunset()>Sunset</button> </p>
+		<p id="Nightitme">
+		<button onclick = NightTime()>NightTime</button> </p>
+		<p id="Sunrise">
+		<button onclick = Sunrise()>Sunrise</button> </p>
 	</section>
 
 	<section id="budget">
@@ -59,20 +74,41 @@
 		<label for="travelers">Number of travelers:</label>
 		<input type="number" id="travelers" placeholder="Example: 2">
 		<br><br>
-		<button id="calcButton">Calculate Total</button>
+		<button id="calculator">Calculate Total</button>
 		<p id="totalCost"></p>
 	</section>
 
 	<section id="surprise">
 		<h2>Can't Decide?</h2>
-		<button id="surpriseButton">Surprise Me!</button>
-		<p id="surpriseResult"></p>
+		<p id="surprise">
+		<button onclick = surprise()>Surprise Me!</button></p>
 	</section>
 
 	<footer>
 		<p>JavaScript Group Challenge</p>
 	</footer>
+	</fit>
 
 	<script src="script.js"></script>
+	<script>
+		function Sunset(){
+			document.body.style.backgroundColor = "orange";
+			document.body.style.fontcolor() = "white";
+		}
+		function NightTime(){
+			document.body.style.backgroundColor = "navy";
+		}
+		function Sunrise(){
+			document.body.style.backgroundColor = "yellow";
+		}
+		function surprise(){
+			let nyc = 1;
+			let la = 2;
+			let paris = 3;
+			let venice = 4;
+			
+		}
+		
+	</script>
 </body>
 </html>
