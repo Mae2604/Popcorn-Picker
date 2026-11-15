@@ -1,0 +1,39 @@
+body{
+    font-family: serif;
+    font-size: larger;
+}
+
+.card {
+    display: inline-block;
+    background-color: #222;
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: gold;
+}
+
+.card button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
