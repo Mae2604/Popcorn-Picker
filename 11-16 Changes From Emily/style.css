@@ -1,0 +1,210 @@
+.card img
+{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+body{
+    font-family:serif;
+    font-size: larger;
+    padding: 24px;
+    background: linear-gradient(45deg in oklch, oklch(94.09% 0.0289 197.58) 0.0%, oklch(92.29% 0.0656 209.92) 16.7%, oklch(84.60% 0.0830 220.55) 33.3%, oklch(74.46% 0.0924 228.36) 50.0%, oklch(67.57% 0.1068 232.53) 66.7%, oklch(68.16% 0.1276 231.62) 83.3%, oklch(75.20% 0.1419 225.05) 100.0%);    color: black;
+    font-size: 25px;
+
+}
+nav{
+    flex: auto;
+    justify-content: center;
+    text-align: center;
+    font-family: serif;
+    padding-left: 50px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 12px;
+    max-width: 600px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+fit{
+    flex: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+section{
+    flex: auto;
+    padding: 20px;
+}
+box{
+    border: #003747;
+    flex: auto;
+    font-family: monospace;
+    background: white;
+}
+ul{
+    border: 30px;
+    padding: 20px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 50%;
+    color: white;
+}
+h1{
+    color:  #06768d;
+}
+h2{
+    color: darkgrey;
+    font-family: monospace;
+    background-color: aliceblue;
+    border: 20px;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body.sunset{
+    background: linear-gradient(90deg in oklch, oklch(100.00% 0.0000 197.09) 0.0%, oklch(98.55% 0.0207 196.26) 16.7%, oklch(95.67% 0.0416 207.09) 33.3%, oklch(90.21% 0.0550 207.97) 50.0%, oklch(84.25% 0.0537 203.94) 66.7%, oklch(79.40% 0.0451 195.29) 83.3%, oklch(75.98% 0.0358 187.04) 100.0%);  
+}
+body.midnight{
+    background: radial-gradient(circle at 50% 50%, oklch(80.31% 0.0999 257.34) 0.000% 1.695%, oklch(80.80% 0.0976 256.24) 1.695% 3.390%, oklch(81.43% 0.0946 255.01) 3.390% 5.085%, oklch(82.18% 0.0910 253.65) 5.085% 6.780%, oklch(83.03% 0.0870 252.11) 6.780% 8.475%, oklch(83.94% 0.0828 250.40) 8.475% 10.169%, oklch(84.89% 0.0785 248.48) 10.169% 11.864%, oklch(85.85% 0.0742 246.34) 11.864% 13.559%, oklch(86.81% 0.0701 243.95) 13.559% 15.254%, oklch(87.73% 0.0664 241.30) 15.254% 16.949%, oklch(88.58% 0.0633 238.37) 16.949% 18.644%, oklch(89.35% 0.0609 235.13) 18.644% 20.339%, oklch(90.02% 0.0594 231.55) 20.339% 22.034%, oklch(90.65% 0.0586 227.58) 22.034% 23.729%, oklch(91.25% 0.0586 223.23) 23.729% 25.424%, oklch(91.83% 0.0569 218.57) 25.424% 27.119%, oklch(92.39% 0.0536 213.61) 27.119% 28.814%, oklch(92.91% 0.0512 208.42) 28.814% 30.508%, oklch(93.40% 0.0497 203.04) 30.508% 32.203%, oklch(93.85% 0.0491 197.52) 32.203% 33.898%, oklch(94.26% 0.0496 191.91) 33.898% 35.593%, oklch(94.63% 0.0512 186.25) 35.593% 37.288%, oklch(94.95% 0.0541 180.59) 37.288% 38.983%, oklch(95.23% 0.0583 174.97) 38.983% 40.678%, oklch(95.45% 0.0643 169.34) 40.678% 42.373%, oklch(95.63% 0.0645 163.52) 42.373% 44.068%, oklch(95.78% 0.0647 157.53) 44.068% 45.763%, oklch(95.88% 0.0666 151.42) 45.763% 47.458%, oklch(95.94% 0.0705 145.22) 47.458% 49.153%, oklch(95.96% 0.0771 138.99) 49.153% 50.847%, oklch(95.94% 0.0877 132.75) 50.847% 52.542%, oklch(95.88% 0.1048 126.56) 52.542% 54.237%, oklch(95.78% 0.1348 120.45) 54.237% 55.932%, oklch(95.64% 0.1768 114.46) 55.932% 57.627%, oklch(95.45% 0.1860 108.63) 57.627% 59.322%, oklch(95.23% 0.1294 103.01) 59.322% 61.017%, oklch(94.97% 0.0915 97.39) 61.017% 62.712%, oklch(94.68% 0.0727 91.73) 62.712% 64.407%, oklch(94.35% 0.0622 86.08) 64.407% 66.102%, oklch(93.98% 0.0561 80.46) 66.102% 67.797%, oklch(93.57% 0.0524 74.94) 67.797% 69.492%, oklch(93.12% 0.0505 69.57) 69.492% 71.186%, oklch(92.62% 0.0499 64.37) 71.186% 72.881%, oklch(92.06% 0.0502 59.42) 72.881% 74.576%, oklch(91.46% 0.0514 54.74) 74.576% 76.271%, oklch(90.79% 0.0534 50.39) 76.271% 77.966%, oklch(90.07% 0.0561 46.42) 77.966% 79.661%, oklch(89.26% 0.0596 42.84) 79.661% 81.356%, oklch(88.28% 0.0644 39.60) 81.356% 83.051%, oklch(87.17% 0.0702 36.67) 83.051% 84.746%, oklch(85.96% 0.0770 34.02) 84.746% 86.441%, oklch(84.68% 0.0844 31.63) 86.441% 88.136%, oklch(83.38% 0.0923 29.49) 88.136% 89.831%, oklch(82.09% 0.1004 27.57) 89.831% 91.525%, oklch(80.85% 0.1086 25.86) 91.525% 93.220%, oklch(79.70% 0.1164 24.33) 93.220% 94.915%, oklch(78.68% 0.1235 22.96) 94.915% 96.610%, oklch(77.82% 0.1297 21.73) 96.610% 98.305%, oklch(77.16% 0.1346 20.63) 98.305% 100.000%);
+}
+body.sunrise{
+    background: conic-gradient(from 30deg, oklch(98.03% 0.0152 205.31) 0.000% 20.000%, oklch(92.13% 0.0400 209.54) 20.000% 40.000%, oklch(85.83% 0.0703 213.77) 40.000% 60.000%, oklch(79.92% 0.1047 217.99) 60.000% 80.000%, oklch(88.19% 0.0551 221.16) 80.000% 100.000%);
+}
+logo{
+    font-style: oblique;
+    color: bisque;
+}
+button{
+
+}
+
+.theme-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 8px 12px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.theme-switcher button {
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: white;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.theme-switcher button:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+}
+
+#destinations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 30px; 
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+#destinations > h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.wrap {
+    width: 100%; 
+    flex: 0 0 auto; 
+    transform-style: preserve-3d;
+    transform: perspective(100rem);
+    cursor: pointer;
+    margin: 10px;
+    max-width: 400px;
+}
+
+.container {
+    --rX: 0;
+    --rY: 0;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
+    background-color: white;
+    border: 3px dashed lightgray;
+    border-radius: 12px;
+    transition: transform 0.6s ease;
+}
+
+.container--active {
+    transition: none;
+}
+
+.card h3 {
+    font-size: 30px;
+    margin: 10px 0 5px 0;
+}
+
+.card p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    padding: 5px 10px;
+    font-size: 10px;
+}
+.hero-collage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 950px;
+}
+.hero-collage img {
+    width: 210px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px dashed white;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+.hero-collage img:nth-child(odd) {
+    transform: translateY(-18px);
+}
+
+.hero-collage img:nth-child(even) {
+    transform: translateY(18px);
+}
+
+#budget, #surprise {
+    background-color: white;
+    border: 2px dashed lightgray;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
